@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Стиль.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+        </style>
+</head>
+<body>
+    <div class="maxBox">
+        <h1 class="mainer">Тест на запоминание чисел</h1>
+        <h3>Совет: поверните телефон горизонтально - это удобно</h3>
+        <p>Это тест на запоминание двузначных чисел. Нажмите кнопку Начать, чтобы программа сгенерировала 12 двузначных чисел в левой таблице. Их необходимо запомнить за 20 секунд, а затем внести в правую таблицу и нажать кнопку Проверить. Программа выведет все числа из левой таблицы и все верно запомненные числа, а так же то сколько процентов от всех чисел составляют верно угаданные. Результаты будут выведены в самом низу теста </p>
+        <h2>!!  Не вносите числа в таблицу до истечения таймера !!</h2>
+    
+    
+        <div class="field3">
+            <div class="field2">
+                <div class="field1" id="after">
+                    <div id="box" class="box"></div>
+                    <div id="box1" class="box"></div>
+                    <div id="box2" class="box"></div>
+                    <div id="box3" class="box"></div>
+                    <div id="box4" class="box"></div>
+                    <div id="box5" class="box"></div>
+                    <div id="box6" class="box"></div>
+                    <div id="box7" class="box"></div>
+                    <div id="box8" class="box"></div>
+                    <div id="box9" class="box"></div>
+                    <div id="box10" class="box"></div>
+                    <div id="box11" class="box"></div>
+                </div>
+            
+                <div class="field1">
+                    <input type="number" class="input" id="inp">
+                    <input type="number" class="input" id="inp1">
+                    <input type="number" class="input" id="inp2">
+                    <input type="number" class="input" id="inp3">
+                    <input type="number" class="input" id="inp4">
+                    <input type="number" class="input" id="inp5">
+                    <input type="number" class="input" id="inp6">
+                    <input type="number" class="input" id="inp7">
+                    <input type="number" class="input" id="inp8">
+                    <input type="number" class="input" id="inp9">
+                    <input type="number" class="input" id="inp10">
+                    <input type="number" class="input" id="inp11">
+                </div>    
+            </div>
+            <div id="after2">
+                <button id="btn">Начать</button>
+            </div>   
+            <button id="btn2">Проверить</button>
+        
+        
+            <div class="field4">
+                <div class="sub4">   
+                    <h1>Таймер</h1>
+                    <h1 id="timer" class="timer"></h1>
+                </div> 
+            </div>
+            
+        
+        
+            <div class="ans" id="ans"></div>
+        </div>
+    </div>
+    <script src="Скрипт.js"></script>
+</body>
+</html> 
